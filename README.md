@@ -47,7 +47,7 @@ The final concepts are:
 - [Agent workflow](merchmix/workflow_v2.py)
 - [MCP server](merchmix/mcp_server.py)
 - [MCP client](merchmix/mcp_client.py)
-- [Reusable design skill](SKILL.md)
+- [Reusable design skill](skills/evidence-led-fashion-concepts/SKILL.md)
 - [Detailed workflow record](run_002_source_review/SUBMISSION_REPORT.md)
 - [Source evidence review](run_002_source_review/SOURCE_REVIEW.md)
 
