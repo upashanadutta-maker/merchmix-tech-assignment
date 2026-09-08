@@ -1,0 +1,22 @@
+{
+  "style_notes": [
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "relation": "above"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "relation": "above"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "relation": "below"
+    }
+  ],
+  "selected_model": "catboost",
+  "selection_basis": "validation_MAE",
+  "ets_sample_best_model": "naive"
+}

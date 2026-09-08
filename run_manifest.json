@@ -1,0 +1,121 @@
+{
+  "status": "complete_human_approved",
+  "created_at": "2026-09-07T18:23:11.481657+00:00",
+  "input_hash": "4d81ee2c3d682876cb94508ded104c30109b83885564a034dd7a1d84a36391c1",
+  "inputs": {
+    "version": "reviewable_v2",
+    "settings": {
+      "text_model": "gpt-4.1-mini",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1536x1024",
+      "colours": {
+        "1": "agent_choice",
+        "2": "agent_choice",
+        "3": "agent_choice"
+      }
+    },
+    "artifacts": {
+      "config.json": "3daa7d55efdd443305d0182c1c01fbdf5e133bd700d72efdde7ec427df96ed1f",
+      "ets_sample_metrics.csv": "65dc95b6942bffffb8541fa4b22e9a01825b204f2209a4c7935e96d27cf9e707",
+      "final_ranking.csv": "c102de7232a3debe4b307ef7b2fa708af5e2d5a233a5b0bdf0b9a54cf9a367b9",
+      "images/0673677002.jpg": "bc1d49f8843ec25493955443f8fc1461d98bfe79c5195f32c705a4710b8d9fde",
+      "images/0865799006.jpg": "a687cadab7d9cad1f98deec14fced926e83e01cb0eeb6a8037f9a1ba9669c7ab",
+      "images/0915529001.jpg": "ef3ad5f204b79722039eca46169b7153e474d4703eb6b69d15787315bcd837bc",
+      "reference_products.json": "4f92cb30d938b541e73bcc49dc810f77ca4f24dabb21fa64ddd33f46464854ff",
+      "sales_model.cbm": "29621c2191f821458e2cf3d0e7a0e0452b92a76e6af3f041d5b6c0e98c91806a",
+      "test_metrics.csv": "24e8dcf7a46068cd4706b2b2b6241f4c3fc5bca929a5990a95fa21132381af4d",
+      "validation_metrics.csv": "408a07e4fb51c017fe84874b7623fd70553081144ce43584dbd67dbd0336d715",
+      "winning_styles.csv": "5a6300d11c01d0a21d7dec0a23b65e38bddf2dfff710aee5939338e724dc5ea2"
+    },
+    "code": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "audit.py": "93968b0ea8fa61446372e2ebb8f7e48ed10e50b1f780054e902775cf9f6ea729",
+      "contracts.py": "d1de4c39aebd1a7d3f08beda014bf6ff958f09e80419b516ec466a7a7b6792d5",
+      "design_v2.py": "490fb1a4456c9096317c889726c02671bcfe18a4d6dd69f5793b56edb8a18ac9",
+      "evidence.py": "fd9cd9e15bc3c23e0e7a236d1d51229661a7eb0ae3c683a4dcd8c5d4ad8f1e92",
+      "forecast_checks.py": "4e2b088c762feef308ab34abf2c5b3d5cc1f04189dd1cf02f4dd997e0503bf2c",
+      "mcp_client.py": "2b320f62c3a2791d1e5f2aeb1e33788c64ca46848836f0ddca46555a4dedc076",
+      "mcp_server.py": "34c95a7fa095ba9c17d8f2c6eb55db95d8689257e4c379593e6fcc8e29ff2c5a",
+      "observation_schema.py": "640ec7b2b43ae76897388ab81795b516caa68af7f66b332f54dd25e86e98464e",
+      "report_v2.py": "c998e4aade64ba446cccd80cf8ee8b0e2a69fe9016d56959bdd4d06c4e4db94b",
+      "workflow_v2.py": "589977ab20527920204a9582412f6528494edbcede6505746122943d2157a58f"
+    },
+    "skill_sha256": "8a8dd04866ae2fc646cb925ee3030f3f421361f2bb17e3b6976cf0dcc3f010bb",
+    "versions": {
+      "openai": "3.8.0",
+      "openai-agents": "0.22.0",
+      "mcp": "1.27.0",
+      "catboost": "1.2.10",
+      "pandas": "2.3.3",
+      "numpy": "2.0.2",
+      "pydantic": "2.12.3",
+      "Pillow": "11.3.0"
+    }
+  },
+  "stages": {
+    "evidence": {
+      "file": "evidence.json",
+      "sha256": "8103ca9965a0b86b1e042fdba67a649b426a8c8a7cc1ffba742d8c3eff9b77f8",
+      "completed_at": "2026-09-07T18:23:11.495856+00:00"
+    },
+    "forecast_agent_assessment": {
+      "file": "forecast_agent_assessment.json",
+      "sha256": "bc58834d0409459319214ed4ccda9d0bb9b3261ab7d8d6937e09950f8eaf2cbe",
+      "completed_at": "2026-09-07T18:23:11.496446+00:00"
+    },
+    "forecast_analysis": {
+      "file": "forecast_analysis.json",
+      "sha256": "723d85c206c9d0aee2c017b8fb32b66341cfaca8c356c04b3ca79bf3bab741ed",
+      "completed_at": "2026-09-07T18:44:31.889653+00:00"
+    },
+    "source_observations": {
+      "file": "source_observations.json",
+      "sha256": "73a31c24249e549de6d1af9bcf8dc10c40a555cfffebf688e0325863d9492382",
+      "completed_at": "2026-09-07T18:23:11.498128+00:00",
+      "provenance": "source_review.json"
+    },
+    "agent_proposal": {
+      "file": "agent_proposal.json",
+      "sha256": "08a166563d809a88c59258710849399f9c8e6ebab5c1718f9c25f0fe2c496192",
+      "completed_at": "2026-09-07T18:44:40.582157+00:00"
+    },
+    "image_receipt": {
+      "file": "image_receipt.json",
+      "sha256": "e8d7e0d0dc637f8810dbb421302eb92781dfc3a5ec79a5d28fd61b3e6d351d30",
+      "completed_at": "2026-09-07T18:52:02.956079+00:00"
+    },
+    "board_observations_raw": {
+      "file": "board_observations_raw.json",
+      "sha256": "9596786e587be3f8cc34a63d663cda4ac5199cd4c70baa888b07cda2d76d9298",
+      "completed_at": "2026-09-07T18:52:11.126124+00:00"
+    },
+    "board_observations": {
+      "file": "board_observations.json",
+      "sha256": "e8b9c53c1cf2baedecd7a2784c4e0b996aac4cad504d50c0e5b21166f204ae52",
+      "completed_at": "2026-09-07T18:52:11.126935+00:00"
+    },
+    "visual_comparison": {
+      "file": "visual_comparison.json",
+      "sha256": "ac19878eb9e6fb2b6e04a5b72eab9fc488f033a5346666faa8cdb0a91e9cfeac",
+      "completed_at": "2026-09-07T18:52:11.127715+00:00"
+    }
+  },
+  "versions": {
+    "openai": "3.8.0",
+    "openai-agents": "0.22.0",
+    "mcp": "1.27.0",
+    "catboost": "1.2.10",
+    "pandas": "2.3.3",
+    "numpy": "2.0.2",
+    "pydantic": "2.12.3",
+    "Pillow": "11.3.0"
+  },
+  "updated_at": "2026-09-07T18:59:22.885484+00:00",
+  "final_outputs": {
+    "final_concept_board.png": "a7436ba769aa33e1a8383fbc1a4eeb2595f6328cf5f62a20d4299a403233507a",
+    "SUBMISSION_REPORT.md": "916ef32af1ad40002726413a497091449d738279627a9496936a45c0dc062163",
+    "SUBMISSION_REPORT.html": "4cf77c9320f893edc877416f6ce06d42dcb2e24295182f2d9aea1e8ab1204039",
+    "human_image_approval.json": "5e503d0dc57623e9876515c1e2b76a3de38e9f3f404edbdec3d8002f54205afa"
+  }
+}

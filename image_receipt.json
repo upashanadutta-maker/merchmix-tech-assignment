@@ -1,0 +1,36 @@
+{
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1536x1024",
+  "n": 1,
+  "prompt_sha256": "de85577680358c571c92aa280fa4e2acd44c2100a344dba13b6d3d43677a000a",
+  "approved_payload_sha256": "b44d6a52434b68697a3fc435fd31c963133a6ab1c8466550128b3e32a355cb25",
+  "reference_sha256": [
+    "bc1d49f8843ec25493955443f8fc1461d98bfe79c5195f32c705a4710b8d9fde",
+    "a687cadab7d9cad1f98deec14fced926e83e01cb0eeb6a8037f9a1ba9669c7ab",
+    "ef3ad5f204b79722039eca46169b7153e474d4703eb6b69d15787315bcd837bc"
+  ],
+  "started_at": "2026-09-07T18:51:29.724884+00:00",
+  "completed_at": "2026-09-07T18:52:02.949044+00:00",
+  "request_id": "req_7ddd1fc234044feea92b9671b06d52d3",
+  "image_sha256": "a7436ba769aa33e1a8383fbc1a4eeb2595f6328cf5f62a20d4299a403233507a",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "file": "concept_board.png",
+  "usage": {
+    "input_tokens": 4815,
+    "input_tokens_details": {
+      "image_tokens": 4371,
+      "text_tokens": 444
+    },
+    "output_tokens": 1372,
+    "total_tokens": 6187,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    }
+  },
+  "mode": "live_api"
+}

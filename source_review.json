@@ -1,0 +1,44 @@
+{
+  "original_run": "/kaggle/working/merchmix_agent_workflow_v2/outputs/run_001",
+  "original_manifest_sha256": "5baddf858ccf069a4ccdd7b7ad177e56dc5709ebe4e71ff630f973631153ad8a",
+  "original_response_sha256": "4efaa94879ba1a7010f09c233924bc4fce601786517ad878d91d4ff97911a3fb",
+  "recovery_code_sha256": "3ed50c33e2e3b93defefcbc6ffadf2774fa7ca633161b4046d0365a754aad98f",
+  "method": "Catalogue-grounded corrections and assistant photo assessment; these are not a new agent response.",
+  "changes": [
+    {
+      "article_id": "0673677002",
+      "attribute": "sleeves",
+      "before": "full_sleeves",
+      "after": "straight_sleeves",
+      "basis": "Photo assessment: sleeves appear straight, without deliberate puff or balloon volume."
+    },
+    {
+      "article_id": "0673677002",
+      "attribute": "surface",
+      "before": "ribbed",
+      "after": "plain",
+      "basis": "Photo assessment: the main body appears plain; ribbed trims are a separate detail."
+    },
+    {
+      "article_id": "0865799006",
+      "attribute": "leg",
+      "before": "straight_leg",
+      "after": "tapered_leg",
+      "basis": "Catalogue description: wide, tapered legs."
+    },
+    {
+      "article_id": "0865799006",
+      "attribute": "waist",
+      "before": "mid_waist",
+      "after": "high_waist",
+      "basis": "Catalogue description: high waist."
+    },
+    {
+      "article_id": "0865799006",
+      "attribute": "length",
+      "before": "regular",
+      "after": "ankle_length",
+      "basis": "Catalogue description: ankle-length trousers."
+    }
+  ]
+}

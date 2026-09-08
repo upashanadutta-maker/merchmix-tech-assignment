@@ -1,0 +1,11 @@
+{
+  "text_model": "gpt-4.1-mini",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1536x1024",
+  "colours": {
+    "1": "agent_choice",
+    "2": "agent_choice",
+    "3": "agent_choice"
+  }
+}

@@ -1,0 +1,9 @@
+Pillow==11.3.0
+catboost==1.2.10
+mcp==1.27.0
+numpy==2.0.2
+openai==3.8.0
+openai-agents==0.22.0
+pandas==2.3.3
+pydantic==2.12.3
+pytest==8.4.2

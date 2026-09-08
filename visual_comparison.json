@@ -1,0 +1,189 @@
+{
+  "automated_check": "needs_review",
+  "human_approval": "pending",
+  "exactly_three_garments": true,
+  "full_garments_visible": true,
+  "checks": [
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "attribute": "category",
+      "proposed": "Sweater",
+      "observed": "Sweater",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "attribute": "colour",
+      "proposed": "blue",
+      "observed": "blue",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "attribute": "neckline",
+      "proposed": "crew_neck",
+      "observed": "crew_neck",
+      "status": "match",
+      "role": "change"
+    },
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "attribute": "sleeves",
+      "proposed": "straight_sleeves",
+      "observed": "full_sleeves",
+      "status": "mismatch",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "attribute": "length",
+      "proposed": "regular",
+      "observed": "regular",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "attribute": "hem",
+      "proposed": "straight_hem",
+      "observed": "straight_hem",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "attribute": "surface",
+      "proposed": "ribbed",
+      "observed": "ribbed",
+      "status": "match",
+      "role": "change"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "attribute": "category",
+      "proposed": "Trousers",
+      "observed": "Trousers",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "attribute": "colour",
+      "proposed": "black",
+      "observed": "black",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "attribute": "leg",
+      "proposed": "wide_leg",
+      "observed": "wide_leg",
+      "status": "match",
+      "role": "change"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "attribute": "waist",
+      "proposed": "high_waist",
+      "observed": "high_waist",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "attribute": "length",
+      "proposed": "ankle_length",
+      "observed": "full_length",
+      "status": "mismatch",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "attribute": "detail",
+      "proposed": "patch_pockets",
+      "observed": "patch_pockets",
+      "status": "match",
+      "role": "change"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "attribute": "category",
+      "proposed": "Sweater",
+      "observed": "Sweater",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "attribute": "colour",
+      "proposed": "pink",
+      "observed": "pink",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "attribute": "neckline",
+      "proposed": "boat_neck",
+      "observed": "boat_neck",
+      "status": "match",
+      "role": "change"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "attribute": "sleeves",
+      "proposed": "short_sleeves",
+      "observed": "short_sleeves",
+      "status": "match",
+      "role": "change"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "attribute": "length",
+      "proposed": "regular",
+      "observed": "regular",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "attribute": "hem",
+      "proposed": "straight_hem",
+      "observed": "straight_hem",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "attribute": "surface",
+      "proposed": "plain",
+      "observed": "plain",
+      "status": "match",
+      "role": "retained_or_user_colour"
+    }
+  ],
+  "limitation": "Independent model observations can be wrong. Inspect the image yourself; no automatic regeneration."
+}

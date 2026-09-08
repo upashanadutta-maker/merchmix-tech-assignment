@@ -1,0 +1,48 @@
+{
+  "validation": {
+    "status": "passed",
+    "ranked_styles": 32553,
+    "selected_styles": 3,
+    "features": 34,
+    "forecast_start": "2020-09-21",
+    "forecast_end": "2020-10-18",
+    "model_replay": "not_run"
+  },
+  "model_replay": {
+    "status": "passed",
+    "rows": 32553,
+    "trees": 1356,
+    "maximum_absolute_difference": 4.547473508864641e-13,
+    "refitted": false,
+    "model_sha256": "321f685ea6d98c459339971b2d903493feb3351e078f2420284ce777354016c1"
+  },
+  "agent_code_matches_original": true,
+  "artifact_changes": [
+    {
+      "file": "final_ranking.csv",
+      "original_sha256": "c102de7232a3debe4b307ef7b2fa708af5e2d5a233a5b0bdf0b9a54cf9a367b9",
+      "current_sha256": "b20621bcdd6fb484585e55949dad8c2b4a82b9bbb783ac05d491abc1fc14b472"
+    },
+    {
+      "file": "sales_model.cbm",
+      "original_sha256": "29621c2191f821458e2cf3d0e7a0e0452b92a76e6af3f041d5b6c0e98c91806a",
+      "current_sha256": "321f685ea6d98c459339971b2d903493feb3351e078f2420284ce777354016c1"
+    },
+    {
+      "file": "winning_styles.csv",
+      "original_sha256": "5a6300d11c01d0a21d7dec0a23b65e38bddf2dfff710aee5939338e724dc5ea2",
+      "current_sha256": "cf7cd7a9ecc083d7b46929efd8843d5f2733fab93de1d63aad265604f4af3ced"
+    }
+  ],
+  "verification_environment": {
+    "openai": "3.8.0",
+    "openai-agents": "0.22.0",
+    "mcp": "1.27.0",
+    "catboost": "1.2.10",
+    "pandas": "2.3.3",
+    "numpy": "2.0.2",
+    "pydantic": "2.12.3",
+    "Pillow": "11.3.0"
+  },
+  "provenance_note": "The approved image and reports belong to the historical run. The current model and forecasting tables were exported after a rerun. The historical manifest has been preserved unchanged."
+}

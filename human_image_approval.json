@@ -1,0 +1,7 @@
+{
+  "approved_at": "2026-09-07T18:59:22.810546+00:00",
+  "image_sha256": "a7436ba769aa33e1a8383fbc1a4eeb2595f6328cf5f62a20d4299a403233507a",
+  "design_payload_sha256": "b44d6a52434b68697a3fc435fd31c963133a6ab1c8466550128b3e32a355cb25",
+  "automated_check": "needs_review",
+  "flagged_checks_explicitly_accepted": true
+}

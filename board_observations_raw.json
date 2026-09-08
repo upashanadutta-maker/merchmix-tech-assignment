@@ -1,0 +1,32 @@
+{
+  "exactly_three_garments": true,
+  "left": {
+    "category": "Sweater",
+    "colour": "blue",
+    "full_garment_visible": true,
+    "neckline": "crew_neck",
+    "sleeves": "full_sleeves",
+    "length": "regular",
+    "hem": "straight_hem",
+    "surface": "ribbed"
+  },
+  "centre": {
+    "category": "Trousers",
+    "colour": "black",
+    "full_garment_visible": true,
+    "leg": "wide_leg",
+    "waist": "high_waist",
+    "length": "full_length",
+    "detail": "patch_pockets"
+  },
+  "right": {
+    "category": "Sweater",
+    "colour": "pink",
+    "full_garment_visible": true,
+    "neckline": "boat_neck",
+    "sleeves": "short_sleeves",
+    "length": "regular",
+    "hem": "straight_hem",
+    "surface": "plain"
+  }
+}

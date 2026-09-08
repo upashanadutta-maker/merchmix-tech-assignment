@@ -1,0 +1,88 @@
+{
+  "garments": [
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "category": "Sweater",
+      "colour": "black",
+      "full_garment_visible": true,
+      "features": [
+        {
+          "attribute": "neckline",
+          "value": "high_neck"
+        },
+        {
+          "attribute": "sleeves",
+          "value": "straight_sleeves"
+        },
+        {
+          "attribute": "length",
+          "value": "regular"
+        },
+        {
+          "attribute": "hem",
+          "value": "straight_hem"
+        },
+        {
+          "attribute": "surface",
+          "value": "plain"
+        }
+      ]
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "category": "Trousers",
+      "colour": "light_beige",
+      "full_garment_visible": true,
+      "features": [
+        {
+          "attribute": "leg",
+          "value": "tapered_leg"
+        },
+        {
+          "attribute": "waist",
+          "value": "high_waist"
+        },
+        {
+          "attribute": "length",
+          "value": "ankle_length"
+        },
+        {
+          "attribute": "detail",
+          "value": "no_added_detail"
+        }
+      ]
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "category": "Sweater",
+      "colour": "beige",
+      "full_garment_visible": true,
+      "features": [
+        {
+          "attribute": "neckline",
+          "value": "square_neck"
+        },
+        {
+          "attribute": "sleeves",
+          "value": "full_sleeves"
+        },
+        {
+          "attribute": "length",
+          "value": "regular"
+        },
+        {
+          "attribute": "hem",
+          "value": "straight_hem"
+        },
+        {
+          "attribute": "surface",
+          "value": "plain"
+        }
+      ]
+    }
+  ],
+  "exactly_three_garments": true
+}

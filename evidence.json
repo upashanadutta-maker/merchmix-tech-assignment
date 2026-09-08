@@ -1,0 +1,298 @@
+{
+  "config": {
+    "model": "CatBoostRegressor",
+    "catboost_version": "1.2.10",
+    "loss_function": "MAE",
+    "number_of_trees": 1356,
+    "target": "future_units_4w",
+    "forecast_scope": "Observed sales per product-code and colour style",
+    "style_keys": [
+      "product_code",
+      "colour_group_code",
+      "colour_group_name"
+    ],
+    "features": [
+      "recent_units_1w",
+      "recent_units_2w",
+      "recent_units_4w",
+      "recent_units_8w",
+      "prior_units_4w",
+      "active_weeks_4w",
+      "active_weeks_8w",
+      "raw_momentum",
+      "has_full_growth_history",
+      "growth_comparable",
+      "customers_1w",
+      "customers_4w",
+      "prior_customers_4w",
+      "customers_8w",
+      "raw_customer_momentum",
+      "customers_per_unit_4w",
+      "avg_price_recent",
+      "channel_2_share_recent",
+      "style_age_weeks",
+      "weeks_since_last_active",
+      "target_start_month",
+      "target_start_quarter",
+      "target_start_week_of_year",
+      "target_start_week_sin",
+      "target_start_week_cos",
+      "colour_group_name",
+      "product_type",
+      "product_group",
+      "graphical_appearance",
+      "garment_group",
+      "section",
+      "index_group",
+      "target_start_fashion_season",
+      "target_start_fashion_half"
+    ],
+    "numeric_features": [
+      "recent_units_1w",
+      "recent_units_2w",
+      "recent_units_4w",
+      "recent_units_8w",
+      "prior_units_4w",
+      "active_weeks_4w",
+      "active_weeks_8w",
+      "raw_momentum",
+      "has_full_growth_history",
+      "growth_comparable",
+      "customers_1w",
+      "customers_4w",
+      "prior_customers_4w",
+      "customers_8w",
+      "raw_customer_momentum",
+      "customers_per_unit_4w",
+      "avg_price_recent",
+      "channel_2_share_recent",
+      "style_age_weeks",
+      "weeks_since_last_active",
+      "target_start_month",
+      "target_start_quarter",
+      "target_start_week_of_year",
+      "target_start_week_sin",
+      "target_start_week_cos"
+    ],
+    "categorical_features": [
+      "colour_group_name",
+      "product_type",
+      "product_group",
+      "graphical_appearance",
+      "garment_group",
+      "section",
+      "index_group",
+      "target_start_fashion_season",
+      "target_start_fashion_half"
+    ],
+    "missing_category_value": "Unknown",
+    "prediction_lower_bound": 0,
+    "snapshot_week": "2020-09-14",
+    "history_available_through": "2020-09-20",
+    "forecast_start": "2020-09-21",
+    "forecast_end": "2020-10-18",
+    "candidate_recency_weeks": 8,
+    "winner_score_weights": {
+      "sales_rank": 0.4,
+      "growth_rank": 0.3,
+      "customer_rank": 0.3
+    },
+    "growth_reliability_k": 7.0,
+    "customer_signal": "Distinct customers in the last four completed weeks",
+    "reference_article_rule": "Highest article sales in the last four completed weeks; ties resolved by customer count, then article ID",
+    "ets_evaluation_scope": "Balanced 600-row validation sample",
+    "tree_evaluation_scope": "Full validation and test populations"
+  },
+  "ranked_styles": 32553,
+  "winners": [
+    {
+      "winner_rank": 1,
+      "product_code": 673677,
+      "colour_group_code": 9,
+      "colour_group_name": "Black",
+      "product_type": "Sweater",
+      "pred_sales_4w": 1667.183730020287,
+      "recent_units_4w": 1632.0,
+      "prior_units_4w": 83.0,
+      "customers_4w": 1456,
+      "adjusted_momentum": 2.736562837917262,
+      "sales_rank": 0.999692808650508,
+      "growth_rank": 0.999959777974419,
+      "customer_rank": 0.999447055570915,
+      "winner_score": 0.999699173523804,
+      "article_id": "0673677002",
+      "prod_name": "Henry polo. (1)",
+      "detail_desc": "Jumper in a soft, fine knit with a ribbed polo neck and ribbing at the cuffs and hem.",
+      "source_image_sha256": "bc1d49f8843ec25493955443f8fc1461d98bfe79c5195f32c705a4710b8d9fde"
+    },
+    {
+      "winner_rank": 2,
+      "product_code": 865799,
+      "colour_group_code": 12,
+      "colour_group_name": "Light Beige",
+      "product_type": "Trousers",
+      "pred_sales_4w": 1664.9889514522051,
+      "recent_units_4w": 1323.0,
+      "prior_units_4w": 40.0,
+      "customers_4w": 1123,
+      "adjusted_momentum": 2.957311208334167,
+      "sales_rank": 0.999662089515559,
+      "growth_rank": 1.0,
+      "customer_rank": 0.998863392006881,
+      "winner_score": 0.999523853408288,
+      "article_id": "0865799006",
+      "prod_name": "Pink HW barrel",
+      "detail_desc": "5-pocket, ankle-length trousers in washed cotton twill with a high waist and wide, tapered legs with decorative seams at the hems.",
+      "source_image_sha256": "a687cadab7d9cad1f98deec14fced926e83e01cb0eeb6a8037f9a1ba9669c7ab"
+    },
+    {
+      "winner_rank": 3,
+      "product_code": 915529,
+      "colour_group_code": 13,
+      "colour_group_name": "Beige",
+      "product_type": "Sweater",
+      "pred_sales_4w": 2016.4380133310435,
+      "recent_units_4w": 2227.0,
+      "prior_units_4w": 434.0,
+      "customers_4w": 1931,
+      "adjusted_momentum": 1.607584783133753,
+      "sales_rank": 0.999846404325254,
+      "growth_rank": 0.997385568337222,
+      "customer_rank": 0.999784966055356,
+      "winner_score": 0.999089722047875,
+      "article_id": "0915529001",
+      "prod_name": "Liliana",
+      "detail_desc": "Jumper in a soft, fine knit containing some wool with a square neckline and long puff sleeves. Wide ribbing at the cuffs and hem. The polyester content of the jumper is recycled.",
+      "source_image_sha256": "ef3ad5f204b79722039eca46169b7153e474d4703eb6b69d15787315bcd837bc"
+    }
+  ],
+  "limits": [
+    "Forecasts describe existing style-colour observed sales, not new concepts.",
+    "The 40/30/30 winner score is a business heuristic, not a success probability.",
+    "Customers are observed recent distinct customers, not forecast customers.",
+    "No inventory history: demand and stock availability are not separated.",
+    "Sales associations do not identify which visual details caused sales."
+  ],
+  "evaluation": {
+    "metrics": {
+      "validation": [
+        {
+          "model": "catboost",
+          "n_forecasts": 58265,
+          "MAE": 23.5288435751,
+          "RMSE": 79.4334884083,
+          "Top20_overlap_pct": 47.5
+        },
+        {
+          "model": "xgboost",
+          "n_forecasts": 58265,
+          "MAE": 23.981426239,
+          "RMSE": 83.1169110256,
+          "Top20_overlap_pct": 32.5
+        },
+        {
+          "model": "naive",
+          "n_forecasts": 58265,
+          "MAE": 27.5440830687,
+          "RMSE": 87.6625104013,
+          "Top20_overlap_pct": 40.0
+        }
+      ],
+      "test": [
+        {
+          "model": "catboost",
+          "n_forecasts": 65935,
+          "MAE": 15.2721919162,
+          "RMSE": 62.8646870641,
+          "Top20_overlap_pct": 45.0
+        },
+        {
+          "model": "naive",
+          "n_forecasts": 65935,
+          "MAE": 24.6963979677,
+          "RMSE": 80.8710366081,
+          "Top20_overlap_pct": 35.0
+        }
+      ],
+      "ets_sample": [
+        {
+          "model": "naive",
+          "n_forecasts": 600,
+          "MAE": 10.7216666667,
+          "RMSE": 39.3343149595
+        },
+        {
+          "model": "holt",
+          "n_forecasts": 600,
+          "MAE": 11.5342531213,
+          "RMSE": 41.1306346388
+        },
+        {
+          "model": "damped_holt",
+          "n_forecasts": 600,
+          "MAE": 11.6466967352,
+          "RMSE": 42.0229800692
+        },
+        {
+          "model": "hw_log_13w",
+          "n_forecasts": 600,
+          "MAE": 12.7711912055,
+          "RMSE": 48.237741121
+        },
+        {
+          "model": "hw_additive_13w",
+          "n_forecasts": 600,
+          "MAE": 16.7988918083,
+          "RMSE": 59.5252110853
+        }
+      ]
+    },
+    "scope_note": "ETS uses 600 sampled rows; tree tables use full populations. These errors cannot be compared across populations. Test scores are from the evaluation model, not the final all-label refit."
+  },
+  "references": [
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "product_code": 673677,
+      "colour_group_code": 9,
+      "colour_group_name": "Black",
+      "prod_name": "Henry polo. (1)",
+      "detail_desc": "Jumper in a soft, fine knit with a ribbed polo neck and ribbing at the cuffs and hem.",
+      "mime_type": "image/jpeg",
+      "image_sha256": "bc1d49f8843ec25493955443f8fc1461d98bfe79c5195f32c705a4710b8d9fde",
+      "local_image": "references/0673677002.jpg"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "product_code": 865799,
+      "colour_group_code": 12,
+      "colour_group_name": "Light Beige",
+      "prod_name": "Pink HW barrel",
+      "detail_desc": "5-pocket, ankle-length trousers in washed cotton twill with a high waist and wide, tapered legs with decorative seams at the hems.",
+      "mime_type": "image/jpeg",
+      "image_sha256": "a687cadab7d9cad1f98deec14fced926e83e01cb0eeb6a8037f9a1ba9669c7ab",
+      "local_image": "references/0865799006.jpg"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "product_code": 915529,
+      "colour_group_code": 13,
+      "colour_group_name": "Beige",
+      "prod_name": "Liliana",
+      "detail_desc": "Jumper in a soft, fine knit containing some wool with a square neckline and long puff sleeves. Wide ribbing at the cuffs and hem. The polyester content of the jumper is recycled.",
+      "mime_type": "image/jpeg",
+      "image_sha256": "ef3ad5f204b79722039eca46169b7153e474d4703eb6b69d15787315bcd837bc",
+      "local_image": "references/0915529001.jpg"
+    }
+  ],
+  "model_replay": {
+    "status": "passed",
+    "rows": 3,
+    "trees": 1356,
+    "maximum_absolute_difference": 2.2737367544323206e-13,
+    "refitted": false,
+    "model_sha256": "29621c2191f821458e2cf3d0e7a0e0452b92a76e6af3f041d5b6c0e98c91806a"
+  }
+}

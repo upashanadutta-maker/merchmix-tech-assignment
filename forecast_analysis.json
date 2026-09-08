@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "explanation_source": "python_verified_evidence",
+  "comparisons": [
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "forecast_units": 1667.183730020287,
+      "recent_units": 1632.0,
+      "difference_units": 35.183730020287,
+      "percentage_change": 2.1558658100666053,
+      "relation": "above"
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "forecast_units": 1664.9889514522051,
+      "recent_units": 1323.0,
+      "difference_units": 341.9889514522051,
+      "percentage_change": 25.84950502284241,
+      "relation": "above"
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "forecast_units": 2016.4380133310435,
+      "recent_units": 2227.0,
+      "difference_units": -210.5619866689565,
+      "percentage_change": -9.454961233451122,
+      "relation": "below"
+    }
+  ],
+  "style_notes": [
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "explanation": "Forecast sales are 1,667.18 units for the next four weeks. Recent four-week sales were 1,632.00 units. The forecast is 2.16% above recent sales. This existing style-colour is winner rank 1 under the configured sales, growth and recent-customer score. The score is a business heuristic, not a probability. The new garment concept has no sales forecast."
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "explanation": "Forecast sales are 1,664.99 units for the next four weeks. Recent four-week sales were 1,323.00 units. The forecast is 25.85% above recent sales. This existing style-colour is winner rank 2 under the configured sales, growth and recent-customer score. The score is a business heuristic, not a probability. The new garment concept has no sales forecast."
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "explanation": "Forecast sales are 2,016.44 units for the next four weeks. Recent four-week sales were 2,227.00 units. The forecast is 9.45% below recent sales. This existing style-colour is winner rank 3 under the configured sales, growth and recent-customer score. The score is a business heuristic, not a probability. The new garment concept has no sales forecast."
+    }
+  ],
+  "model_selection_explanation": "catboost has the lowest MAE on the common validation population and was selected using validation MAE. Test metrics are a separate held-out evaluation, not a selection criterion. naive has the lowest MAE on the separate ETS sample. ETS sample errors cannot be compared directly with the full-population tree errors. No XGBoost test result is supplied. The exported model is the subsequent final refit.",
+  "limitations": [
+    "These are observed sales forecasts for existing style-colour groups, not new designs.",
+    "Inventory availability and unconstrained demand cannot be separated with these data.",
+    "Recent customer counts are observations, not customer forecasts.",
+    "The winner-score weights are a business heuristic and have not been prospectively validated.",
+    "Forecasting evidence does not establish causal effects of garment design features.",
+    "Numerical forecast explanations are checked; broader creative claims still need review."
+  ]
+}

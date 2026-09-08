@@ -1,0 +1,55 @@
+{
+  "concepts": [
+    {
+      "winner_rank": 1,
+      "article_id": "0673677002",
+      "colour": "blue",
+      "changes": [
+        {
+          "attribute": "neckline",
+          "before": "high_neck",
+          "after": "crew_neck"
+        },
+        {
+          "attribute": "surface",
+          "before": "plain",
+          "after": "ribbed"
+        }
+      ]
+    },
+    {
+      "winner_rank": 2,
+      "article_id": "0865799006",
+      "colour": "black",
+      "changes": [
+        {
+          "attribute": "leg",
+          "before": "tapered_leg",
+          "after": "wide_leg"
+        },
+        {
+          "attribute": "detail",
+          "before": "no_added_detail",
+          "after": "patch_pockets"
+        }
+      ]
+    },
+    {
+      "winner_rank": 3,
+      "article_id": "0915529001",
+      "colour": "pink",
+      "changes": [
+        {
+          "attribute": "neckline",
+          "before": "square_neck",
+          "after": "boat_neck"
+        },
+        {
+          "attribute": "sleeves",
+          "before": "full_sleeves",
+          "after": "short_sleeves"
+        }
+      ]
+    }
+  ]
+}
