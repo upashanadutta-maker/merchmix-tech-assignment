@@ -41,14 +41,15 @@ The final concepts are:
 
 ## Start Here
 
+- [Technical assignment report](Upashana_Dutta_Merchmix_Technical_Report.pdf)
 - [Executed forecasting notebook](merchmixforecasting.ipynb)
+- [Final concept board](run_002_source_review/final_concept_board.png)
 - [Agent workflow](merchmix/workflow_v2.py)
 - [MCP server](merchmix/mcp_server.py)
 - [MCP client](merchmix/mcp_client.py)
 - [Reusable design skill](SKILL.md)
-- [Detailed workflow report](run_002_source_review/SUBMISSION_REPORT.md)
+- [Detailed workflow record](run_002_source_review/SUBMISSION_REPORT.md)
 - [Source evidence review](run_002_source_review/SOURCE_REVIEW.md)
-- [Final concept board](run_002_source_review/final_concept_board.png)
 
 ## Final Concept Board
 
@@ -56,16 +57,34 @@ The final concepts are:
 
 ## Data and Reproducibility
 
-The forecasting notebook uses the H&M Personalized Fashion Recommendations dataset, including:
+The forecasting notebook uses the H&M Personalized Fashion Recommendations dataset:
 
 - `transactions_train.csv`
 - `articles.csv`
 - Matching catalogue images
 
-The raw H&M data are not included in this repository. The notebook is configured for execution in Kaggle with the H&M dataset attached.
+The raw H&M dataset is not included in this repository. The notebook is configured to run in Kaggle after attaching the H&M dataset.
 
-Install the forecasting and agent-workflow dependencies using:
+Install the dependencies using:
 
 ```bash
 pip install -r requirements-forecasting.txt
+pip install -r requirements.txt
+```
+
+Run the automated tests from the repository root using:
+
+```bash
+pytest -q
+```
+
+The repository also includes saved workflow outputs, approval records, execution traces, and verification results so that the completed run can be reviewed without rerunning the generative stages.
+
+## Important Limitations
+
+- The forecast values apply to the existing source styles, not the newly generated concepts.
+- Reliable stock-on-hand history is unavailable, so the model forecasts observed sales rather than unconstrained demand.
+- The winner-ranking weights are business heuristics, not validated success probabilities.
+- Historical performance of the source styles does not prove that the generated concepts will perform similarly.
+- Future demand and manufacturing feasibility for the new concepts were not evaluated. requirements-forecasting.txt
 pip install -r requirements.txt
