@@ -86,5 +86,4 @@ The repository also includes saved workflow outputs, approval records, execution
 - Reliable stock-on-hand history is unavailable, so the model forecasts observed sales rather than unconstrained demand.
 - The winner-ranking weights are business heuristics, not validated success probabilities.
 - Historical performance of the source styles does not prove that the generated concepts will perform similarly.
-- Future demand and manufacturing feasibility for the new concepts were not evaluated. requirements-forecasting.txt
-pip install -r requirements.txt
+- Future demand and manufacturing feasibility for the new concepts were not evaluated. 
